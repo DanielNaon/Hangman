@@ -1,22 +1,77 @@
-.App {
+body{
+  display: grid;
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.letter{
+  display: inline;
 }
-
-.App-link {
-  color: #09d3ac;
+.guessed{
+  text-decoration: line-through;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.available{
+  color: red;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.high{
+  color: green;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.middle{
+  color: yellow;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.low{
+  color:red;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.header{
+  display: grid;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 130px;
+  color:  #09d3ac;
+}
+.fas{
+  display: grid;
+  font-size: 160px;
+  margin-top: 2%;
+}
+.score{
+  font-family: 'Rubik Mono One', sans-serif; 
+  margin-top: 3px;
+}
+.hint{
+  font-family: 'Rubik Mono One', sans-serif;
+  margin-top: 4px;
+}
+.avavilableLetter{
+  font-family: 'Rubik Mono One', sans-serif;
+  margin-top: 1%;
+  padding: 3px;
+}
+.pic{
+  margin-top: 50px;
+  width: 500px;
+  height: 400px;
+}
+.solution{
+  font-size: 50px;
+}
+.gameover{
+  display: grid;
+  width: 400px;
+  height: 120px;
+  margin-bottom: 2%;
+  border-radius: 7px;
+  border: 1px solid rgb(14, 85, 179);
+  text-align:center; 
+  margin-left: 40%;;
+  font-size: 23px;
+  font-family: 'Gochi Hand', cursive;
+  padding: 3px;
+}
+.endButton{
+  font-size: 23px;
+  font-family: 'Gochi Hand', cursive;
 }
