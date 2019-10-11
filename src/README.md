@@ -1,0 +1,1 @@
+![Screenshot](Hangman-pic.png)
